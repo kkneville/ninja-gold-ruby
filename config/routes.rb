@@ -1,4 +1,7 @@
 Rails.application.routes.draw do
+
+  get 'rpg/' => 'rpg#index'  
+
   get 'rpg/index' => 'rpg#index'
 
   post 'rpg/getgold' => 'rpg#getgold'
